@@ -1,0 +1,10 @@
+    <li>
+        <%= post.title %>
+        <%= image_tag post.image_url(:thumb) %>
+        <%= link_to 'Show', post %>
+        <%= link_to 'Edit', edit_post_path(post), remote: true %>
+        <%= link_to 'Destroy', post, remote: true, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </li>
+        
+
+      

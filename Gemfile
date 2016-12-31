@@ -19,6 +19,8 @@ gem 'devise'
 
 gem 'carrierwave'
 
+gem 'remotipart', '~> 1.2'
+
 gem 'mini_magick'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
